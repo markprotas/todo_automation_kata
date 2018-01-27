@@ -6,6 +6,7 @@ import todoApp from "./reducers";
 import App from "./components/App";
 
 import "bootstrap/dist/css/bootstrap.css";
+import "typeface-open-sans/index.css";
 import "./index.css";
 
 let store = createStore(todoApp);

@@ -24,7 +24,11 @@ let AddTodo = ({ dispatch }) => {
             input = node;
           }}
         />
-        <button type="submit" id="addTodoButton">
+        <button
+          type="submit"
+          className="btn btn-primary ml-3"
+          id="addTodoButton"
+        >
           Add Todo
         </button>
       </form>
